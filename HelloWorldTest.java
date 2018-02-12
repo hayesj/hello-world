@@ -15,7 +15,7 @@ public class HelloWorldTest
 
     public void testSayHello() {
           //assert(Hello!=null);
-          assertEquals("Hello World",hello.sayHello());  }
+          assertEquals("Hello World",hello.sayHello();  }
 
       }
 
