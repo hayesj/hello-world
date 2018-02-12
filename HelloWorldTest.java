@@ -13,7 +13,7 @@ public class HelloWorldTest
 
     protected void tearDown() {}  //no resources to release
 
-    public testSayHello() {
+    public void testSayHello() {
           assert(Hello!=null);
           assertEquals("Hello World",Hello.sayHello());  }
 
