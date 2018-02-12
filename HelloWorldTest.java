@@ -8,14 +8,14 @@ public class HelloWorldTest
 
     protected void setUp() {  // creates a (simple) test fixture
 
-        HelloWorld Hello = new HelloWorld();
+        HelloWorld hello = new HelloWorld();
     }
 
     protected void tearDown() {}  //no resources to release
 
     public void testSayHello() {
           //assert(Hello!=null);
-          assertEquals("Hello World",Hello.sayHello());  }
+          assertEquals("Hello World",hello.sayHello());  }
 
       }
 
