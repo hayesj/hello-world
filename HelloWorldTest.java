@@ -2,7 +2,7 @@ import junit.framework.TestCase;
 
 public class HelloWorldTest
     extends TestCase {
-        Hello HelloWorld;
+       // Hello HelloWorld;
 
     public HelloWorldTest() {}   //default constructor
 
@@ -13,7 +13,6 @@ public class HelloWorldTest
 
     protected void tearDown() {}  //no resources to release
 
-@Test
     public void testSayHello() {
           assert(Hello!=null);
           assertEquals("Hello World",Hello.sayHello());  }
