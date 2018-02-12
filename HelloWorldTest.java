@@ -14,7 +14,7 @@ public class HelloWorldTest
     protected void tearDown() {}  //no resources to release
 
     public void testSayHello() {
-          assert(Hello.sayHello!=null);
+          //assert(Hello!=null);
           assertEquals("Hello World",Hello.sayHello());  }
 
       }
