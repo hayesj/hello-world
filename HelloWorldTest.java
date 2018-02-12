@@ -2,7 +2,7 @@ import junit.framework.TestCase;
 
 public class HelloWorldTest
     extends junit.framework.TestCase {
-      // Hello HelloWorld;
+        HelloWorld hello = new HelloWorld();
 
     public HelloWorldTest() {}   //default constructor
 
