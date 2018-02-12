@@ -8,7 +8,7 @@ public class HelloWorldTest
 
     protected void setUp() {  // creates a (simple) test fixture
 
-        Hello = new HelloWorld();
+        HelloWorld Hello = new HelloWorld();
     }
 
     protected void tearDown() {}  //no resources to release
