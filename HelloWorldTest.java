@@ -13,11 +13,11 @@ public class HelloWorldTest
 
     protected void tearDown() {}  //no resources to release
 
-    protected void testSayHello() {
+@Test
+    publicvoid testSayHello() {
           assert(Hello!=null);
           assertEquals("Hello World",Hello.sayHello());  }
 
       }
 
 
-}
