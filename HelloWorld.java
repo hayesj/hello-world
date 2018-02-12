@@ -5,7 +5,7 @@ import java.util.*;
  */
 public class HelloWorld {
     
-  //  public static void main (String[] args) {
+  public static void main (String[] args) {
 //	System.out.println ("Hello world!");
 
 	public String say() {
@@ -13,5 +13,5 @@ public class HelloWorld {
 	}
 
 	//System.out.println("Hello change");
-    //}
+    }
 }
