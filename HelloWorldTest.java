@@ -6,7 +6,7 @@ public class HelloWorldTest
 
     public HelloWorldTest() {}   //default constructor
 
-    protected void setUp() {  // creates a (simple) test fixture
+    public void setUp() {  // creates a (simple) test fixture
 
         HelloWorld hello = new HelloWorld();
     }
