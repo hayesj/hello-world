@@ -1,20 +1,24 @@
-import junit.framework.TestCase;
-import org.junit.Test;
 
-public class HelloWorldTest extends junit.framework.TestCase  {
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+
+public class HelloWorldTest {
 
   @Test
-        //HelloWorld hello = new HelloWorld();
 
-    public void HelloWorldTest() { 
+    public void testMain() { 
 
-      HelloWorld hello = new HelloWorld();
+      String[] expected = new String[] {
+        "Yeah! This is a simple", "Hello World!!" };
+      String[] results =
+          AbstractMainTests.executeMain("HelloWorld", new String[] {"Yeah"});
 
-      hello.sayHello();  // print out hello World
+          assertArrayEquals(expected, results);
+            }
 
-      //assertEquals("Hello World",hello.sayHello);  
-    }
+          }
 
-      }
+
 
 
