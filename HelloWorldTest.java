@@ -9,7 +9,7 @@ public class HelloWorldTest extends junit.framework.TestCase  {
 
       HelloWorld hello = new HelloWorld();
 
-      assertEquals("Hello World",hello.sayHello());  }
+      assertEquals("Hello World",hello.sayHello("hello"));  }
 
       }
 
