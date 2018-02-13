@@ -5,20 +5,9 @@ import java.util.*;
  */
 public class HelloWorld {
     
-    void sayHello() {
-    	System.out.println("Hello World");
-    }
-
   public static void main (String[] args) {
-//	System.out.println ("Hello world!");
 
-     HelloWorld world = new HelloWorld();
-     world.sayHello();
-
-	//public String say() {
-	//	  return("Hello World!");
-	}
-
-	//System.out.println("Hello change");
-    //}
+    System.out.println (args[0]+"! This is a simple two lines");
+    System.out.println("Hello world!!");
+    }
 }
