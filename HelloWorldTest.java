@@ -1,21 +1,16 @@
-import junit.framework.TestCase;
+import org.junit.framework.TestCase;
+import static org.junit.assertEquals;
 
-public class HelloWorldTest
-    extends junit.framework.TestCase {
-        HelloWorld hello = new HelloWorld();
+public class HelloWorldTest  {
 
-    public HelloWorldTest() {}   //default constructor
+  @Test
+        //HelloWorld hello = new HelloWorld();
 
-    public void setUp() {  // creates a (simple) test fixture
+    public void HelloWorldTest() { 
 
-       // HelloWorld hello = new HelloWorld();
-    }
+      HelloWorld hello = new HelloWorld();
 
-    protected void tearDown() {}  //no resources to release
-
-    public testSayHello() {
-          //assert(Hello!=null);
-          assertEquals("Hello World",hello.sayHello());  }
+      assertEquals("Hello World",hello.sayHello());  }
 
       }
 
