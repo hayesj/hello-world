@@ -1,7 +1,6 @@
-import org.junit.framework.TestCase;
-import static org.junit.assertEquals;
+import junit.framework.TestCase;
 
-public class HelloWorldTest  {
+public class HelloWorldTest extends junit.framework.TestCase  {
 
   @Test
         //HelloWorld hello = new HelloWorld();
