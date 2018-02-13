@@ -11,10 +11,20 @@ public class HelloWorld {
   //  System.out.println("Hello world!!");
    // }
 
-    public int evaluate(String expression)  {
+     public int evaluate(String expression)  {
          int sum = 0;
          for (String summand: expression.split("\\+"))
             sum += Integer.valueOf(summand);
         return sum;
     }
+    
+public static void main(String[] args)  {
+
+ HelloWorld hello = new HelloWorld;
+
+      hello.evaluate("1+2");
+
+      }
+
+   
 }
