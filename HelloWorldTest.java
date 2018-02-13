@@ -11,7 +11,8 @@ public class HelloWorldTest extends junit.framework.TestCase  {
 
       hello.sayHello();  // print out hello World
 
-      //assertEquals("Hello World",hello.sayHello);  }
+      //assertEquals("Hello World",hello.sayHello);  
+    }
 
       }
 
