@@ -17,10 +17,10 @@ public class HelloWorld {
             sum += Integer.valueOf(summand);
         return sum;
     }
-    
+
 public static void main(String[] args)  {
 
- HelloWorld hello = new HelloWorld;
+ HelloWorld hello = new HelloWorld();
 
       hello.evaluate("1+2");
 
