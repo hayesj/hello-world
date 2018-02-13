@@ -1,8 +1,9 @@
 import junit.framework.TestCase;
+import org.junit.Test;
 
 public class HelloWorldTest extends junit.framework.TestCase  {
 
-  //@Test
+  @Test
         //HelloWorld hello = new HelloWorld();
 
     public void HelloWorldTest() { 
