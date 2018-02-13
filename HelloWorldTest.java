@@ -6,7 +6,7 @@ import static org.junit.Assert.*;
 public class HelloWorldTest {
 
   @Test
-  public void evaluateExpression() { 
+  public static void main(String[] args){ 
 
 
       HelloWorld hello = new HelloWorld();
